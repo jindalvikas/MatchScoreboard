@@ -1,7 +1,7 @@
 # MatchScoreboard
 
-Compile using below command
+Compile using below command<br />
 javac Match.java
-
-Run using below command
+<br />
+Run using below command<br />
 java Match
