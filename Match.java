@@ -58,7 +58,7 @@ class Match {
 
                     } else if (input.equalsIgnoreCase(Constants.WIDE)) {
 
-                        scoreboard.updateScoreboard(Constants.RUNS_ONE);
+                        scoreboard.updateWideBall();
 
                     } else {
 

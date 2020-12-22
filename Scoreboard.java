@@ -9,7 +9,7 @@ class Scoreboard {
     private int score = 0;
     private int currOverBalls = 0;
 
-    
+
     Scoreboard (int playersCount, int oversCount, Team team) {
         this.playersCount = playersCount;
         this.oversCount = oversCount;
@@ -114,6 +114,10 @@ class Scoreboard {
 
     void setCurrOverBalls(int currOverBalls) {
         this.currOverBalls = currOverBalls;
+    }
+
+    void updateWideBall() {
+        updateScore(Constants.RUNS_ONE);
     }
 
     boolean updateScoreboard(int run) {
